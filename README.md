@@ -1,5 +1,37 @@
 # FinTechBootcamp_Assignments_14
 
+**Overview**
+----
+The program was designed to improve the existing algorithmic trading systems and maintain the firm’s competitive advantage in the market. In order to enhance the existing trading signals with machine learning algorithms that can adapt to new data, the following was accomplished:
+
+Establish a Baseline Performance
+
+Tune the Baseline Trading Algorithm
+
+Evaluate a New Machine Learning Classifier
+
+Create an Evaluation Report
+
+**Requirements**
+----
+This project leverages python 3.7 and scikit-learn.
+
+A conda environment with liabraries listed below and Jupyter Notebook/Lab are required to run the code.
+
+The following library was used:
+
+Scikit Learn - Scikit Learn or Sklearn is one of the most used Python libraries for Data Science, along with others like Numpy, Pandas, Tensorflow, or Keras.
+Install the following librarie(s) in your terminal.
+```
+pip install -U scikit-learn
+```
+
+**Data**
+----
+The data used in this neural network model was from derived from a CSV file called emerging_markets_ohlcv.csv:
+
+**Visualization**
+----
 ## Baseline Performance
 
 In this assignment, we first evaluate a baseline performance using SVM binary classifier with a training time window of 3 months and the SMA parameters set as 4 and 100 as short-term and long-term window respectively. This baseline model has a cumulative strategy return of 1.517 and the comparison plot for the baseline and actual return is shown as following:
